@@ -1,6 +1,11 @@
 /* BODY */
 
 /* WELCOME 1 & 2*/
+#welcome1-style, #welcome2-style {
+  font-family: 'Seaweed Script', cursive;
+  text-align: center;
+}
+
 @media all and (max-width:575px) {
 
 }
@@ -17,7 +22,13 @@
 
 }
 @media all and (min-width:1200px) {
-
+  .greeting-space {
+    margin-top: 100px;
+    
+  }
+  #welcome1-style {
+    font-size: 85px;
+  }
 }
 
 
