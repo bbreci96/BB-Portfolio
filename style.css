@@ -178,6 +178,25 @@ a {
     background: linear-gradient(135deg, #99b16d52, #bfc06b38);
   }
 }
+
+@media all and (min-width: 992px) {
+  .skills-space {
+    margin-top: 80px;
+  }
+  .skill-style {
+    margin-left: 95px;
+  }
+   
+
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .skills-space {
+    padding-left: 65px !important;
+  }
+  .skill-style {
+    height:200px
+  }
+}
 @media all and (min-width: 1200px) {
   .skill-style {
     margin-left: 90px;
