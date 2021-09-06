@@ -1,35 +1,46 @@
 /* BODY */
 
 /* WELCOME 1 & 2*/
-#welcome1-style, #welcome2-style {
+.welcome-style {
   font-family: 'Seaweed Script', cursive;
   text-align: center;
 }
 
 @media all and (max-width:575px) {
-
+  .welcome-style {
+    font-size: 35px;
+  }
+  
 }
 @media all and (min-width:576px){
-
+  .welcome-style {
+    font-size: 50px;
+  }
 }
 @media all and (max-width:767px) {
  .greeting1-space {
    display: none;
  }
+ .greeting2-space {
+    margin-top: 30px;
+  }
 }
 @media all and (min-width:768px) {
   .greeting1-space {
     margin-top: 55px;
   }
-  #welcome1-style {
+  .welcome-style {
     font-size: 60px;
+  }
+  .greeting2-space {
+    display: none;
   }
 }
 @media all and (min-width:992px) {
   .greeting1-space {
     margin-top: 80px;
   }
-  #welcome1-style {
+  .welcome-style {
     font-size: 75px;
   }
 }
@@ -37,7 +48,7 @@
   .greeting1-space {
     margin-top: 100px;
   }
-  #welcome1-style {
+  .welcome-style {
     font-size: 85px;
   }
 }
@@ -84,6 +95,30 @@ a {
   .img-resp {
     width: 50px;
     height: 50px;
+  }
+  .wiggle:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
   }
 }
 @media all and (min-width:992px) {
