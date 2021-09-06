@@ -153,6 +153,14 @@ a {
   font-size: 20px;
 }
 
+.about-style {
+  background: linear-gradient(135deg, #c9c49652, #b4db7e38);
+}
+
+.skill-style {
+  background: linear-gradient(135deg, #99b16d52, #bfc06b38);
+}
+
 .skills-img {
   width: 50px;
   height:80px;
@@ -163,6 +171,13 @@ a {
   margin-top: 0px;
 }
 
+@media all and (max-width: 575px) {
+  .p-style {
+    padding-left: 15px;
+    padding-right: 5px;
+  }
+}
+
 @media all and (min-width: 768px) {
   .about-style , .skill-style {
     border-style: double;
@@ -170,12 +185,18 @@ a {
     border-width: 10px;
   }
 
-  .about-style {
-    background: linear-gradient(135deg, #c9c49652, #b4db7e38);
-  }
+  
+}
 
+@media all and (min-width:768px) and (max-width:991px) {
+  .skills-img {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 991px) {
   .skill-style {
-    background: linear-gradient(135deg, #99b16d52, #bfc06b38);
+    margin-top: 25px;
   }
 }
 
