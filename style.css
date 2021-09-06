@@ -215,7 +215,7 @@ a {
     padding-left: 65px !important;
   }
   .skill-style {
-    height:200px
+   padding: 0px;
   }
 }
 @media all and (min-width: 1200px) {
