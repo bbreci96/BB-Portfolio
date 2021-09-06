@@ -42,8 +42,64 @@
   }
 }
 
-
 /* NAVIGATION */
+
+nav {
+  font-size: 20px;
+  background: linear-gradient(135deg, #cad6ac71, #cee5ad38);
+  border-style: double;
+  border-color: black !important;
+  border-width: 10px;
+}
+a {
+  color: black !important;
+}
+
+.nav-link:hover {
+  background-color: rgba(148, 168, 99, 0.795);
+  border-radius: 5px;
+}
+
+
+
+@media all and (max-width:575px) {
+
+}
+@media all and (min-width:576px){
+  
+}
+@media all and (max-width:767px) {
+  .sm-space {
+    margin-top: 15px;
+  }
+  .img-resp {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media all and (min-width:768px) {
+  nav {
+    margin: 40px 50px 50px 50px;
+  }
+  .img-resp {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media all and (min-width:992px) {
+  nav {
+    margin: 70px 80px 50px 80px;
+  }
+}
+@media all and (min-width:1200px) {
+  nav {
+    margin: 100px 130px 50px 130px;
+    padding: 15px 80px !important;
+  }
+  .item-style {
+    margin-left: 40px !important;
+  }
+}
 
 /* ABOUT ME & MY SKILLS */
 
