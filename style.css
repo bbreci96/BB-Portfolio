@@ -1,8 +1,12 @@
 /* BODY */
 
+body {
+  font-family: 'Arya', sans-serif;
+}
+
 /* WELCOME 1 & 2*/
 .welcome-style {
-  font-family: 'Seaweed Script', cursive;
+  font-family: 'Seaweed Script', cursive !important;
   text-align: center;
 }
 
@@ -72,7 +76,6 @@ a {
 }
 
 
-
 @media all and (max-width:575px) {
 
 }
@@ -137,6 +140,52 @@ a {
 }
 
 /* ABOUT ME & MY SKILLS */
+
+.text{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.p-style {
+  line-height: 25px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+
+.skills-img {
+  width: 50px;
+  height:80px;
+  margin: 20px
+}
+
+.skills-img {
+  margin-top: 0px;
+}
+
+@media all and (min-width: 768px) {
+  .about-style , .skill-style {
+    border-style: double;
+    border-color: black !important;
+    border-width: 10px;
+  }
+
+  .about-style {
+    background: linear-gradient(135deg, #c9c49652, #b4db7e38);
+  }
+
+  .skill-style {
+    background: linear-gradient(135deg, #99b16d52, #bfc06b38);
+  }
+}
+@media all and (min-width: 1200px) {
+  .skill-style {
+    margin-left: 90px;
+  }
+  .skills-space {
+    margin-top: 100px;
+  }
+}
 
 /* MY WORK */
 
