@@ -230,4 +230,83 @@ a {
 
 /* MY WORK */
 
+.look-style {
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 575px) {
+  .description-style , .project-style  {
+    width: 50px;
+    padding: 0px
+  }
+
+  .description-style {
+    font-size: 12px !important;
+  }
+}
+
+@media all and (max-width:767px) {
+  .work-img {
+    display: none;
+  }
+  .description-style {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .work-style {
+    margin-top: 30px;
+  }
+  .workHead {
+    background: linear-gradient(135deg, #c9c49652, #b4db7e38);
+    font-size: 20px;
+  }
+
+  .look-style {
+    margin-bottom: 40px;
+  }
+
+  .p-style {
+    font-size: 15px;
+    text-align: left !important;
+    margin-top: 10px;
+  }
+
+  .p-space {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .p-space {
+    padding-top: 20px;
+  }
+  .workHead {
+    font-size: 30px;
+  }
+  .work-space {
+    margin-bottom: 30px;
+  }
+  .work-style {
+    margin-top: 50px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .p-display {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .work-style {
+    margin-top: 100px;
+  }
+
+  .work-space {
+    margin-bottom: 30px;
+  }
+}
+
 /* CONTACT ME */
